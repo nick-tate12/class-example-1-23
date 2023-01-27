@@ -55,3 +55,8 @@ type StateCapitalPairs = Partial<Record<StateName, string>>;
 type CapitalRequestQuery = {
   state: StateName;
 };
+
+type StateData = {
+  state: StateName;
+  capital: string;
+};
