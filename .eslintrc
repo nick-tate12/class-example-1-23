@@ -34,5 +34,6 @@
     },
     "parserOptions": {
       "project": "./tsconfig.json"
-    }
+    },
+    "eslint.workingDirectories": ["./class-example-1-23"]
 }
