@@ -40,3 +40,8 @@ type FinalExamScores = {
   neededForC: number;
   neededForD: number;
 }
+
+type GradeUpdateParams = {
+  studentName: string;
+  assignmentName: string;
+}
